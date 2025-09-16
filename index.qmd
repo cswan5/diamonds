@@ -18,3 +18,4 @@ mtcars |>
 
 print(Sys.time())
 ```
+[page 2](https://cswan5.github.io/diamonds/p2.html)

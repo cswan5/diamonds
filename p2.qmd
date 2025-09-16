@@ -1,0 +1,18 @@
+---
+title: "Page 2"
+format: html
+---
+
+This is a new quarto page.
+
+```{r}
+#| include: false
+
+library(tidyverse)
+```
+
+```{r}
+diamonds |> 
+  ggplot() +
+  geom_bar(aes(cut))
+```
