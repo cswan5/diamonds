@@ -1,0 +1,20 @@
+---
+title: "Test Document"
+format: 
+  html:
+    echo: false
+---
+
+```{r}
+#| include: false
+
+library(tidyverse)
+```
+
+```{r}
+mtcars |> 
+  ggplot(aes(x = gear, y = mpg))+
+  geom_bar(stat="identity")
+
+print(Sys.time())
+```
